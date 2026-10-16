@@ -42,7 +42,7 @@ class ClarificationDecision(DecisionModel):
 
 class FinalDecision(DecisionModel):
     kind: Literal["final"]
-    respone: AgentResponse
+    response: AgentResponse
 
 
 AgentDecision = Annotated[
